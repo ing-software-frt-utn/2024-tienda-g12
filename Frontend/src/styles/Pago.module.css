@@ -1,0 +1,781 @@
+.main {
+  height: 100vh;
+}
+
+.divPrincipal {
+  background-image: url("../images/martin-martz-X5fEKadz0Xc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  height: calc(100vh - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 70px;
+}
+
+.buttonHeader {
+  background: transparent;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.buttonHeader:hover {
+  color: #fff;
+  text-shadow: #fff 0 0 8px;
+}
+
+.divRegistroYVentaOuter {
+  display: flex;
+}
+
+.divRegistroYVenta {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.divClienteYRegistro {
+  width: 100%;
+  height: calc(100vh - 10px);
+  text-align: center;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  border-top-left-radius: none;
+  margin-top: 5px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.H1Cliente {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.formBuscarCliente {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px #00000033;
+  border-top-left-radius: 0px;
+}
+
+.divInputNumeroDocumento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.formBuscarCliente input {
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  outline: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-left: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.1rem;
+  background-color: rgb(228, 228, 231);
+}
+
+.btnBuscarCliente {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  margin-left: 10px;
+}
+
+.btnBuscarCliente:hover {
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  text-shadow: #fff 0 0 8px;
+  font-weight: 800;
+}
+
+.btnRegistrarCliente {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  margin-left: 10px;
+}
+
+.btnRegistrarCliente:hover {
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  text-shadow: #fff 0 0 8px;
+  font-weight: 800;
+}
+
+.btnSeleccionarCliente {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: 2px solid rgb(0, 224, 97);
+  outline: none;
+  cursor: pointer;
+  width: 120px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.btnSeleccionarCliente:hover {
+  color: #000;
+  background-color: rgb(0, 224, 97);
+  font-weight: 800;
+}
+
+.btnRegistrar {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(0, 224, 97);
+  margin-bottom: 10px;
+}
+
+.btnRegistrar:hover {
+  color: rgb(53, 62, 57);
+  background-color: rgb(0, 224, 97);
+  font-weight: 800;
+  border: none;
+}
+
+.btnCancelar {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(255, 0, 60);
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btnCancelar:hover {
+  color: #fff;
+  background-color: rgb(255, 0, 60);
+  font-weight: 800;
+  border: none;
+}
+
+.divClienteEncontrado {
+  width: 100%;
+  margin-top: 5px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px #00000033;
+  border-radius: 7px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.divClienteEncontrado h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  margin-top: 8px;
+}
+
+.divRegistroCliente {
+  margin-top: 5px;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px #00000033;
+  border-radius: 7px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1275px) {
+  .divRegistroCliente {
+    width: 100%;
+  }
+
+  .divClienteEncontrado {
+    width: 100%;
+  }
+
+  .formBuscarCliente {
+    width: 100%;
+  }
+
+  .H1Cliente {
+    width: 100%;
+  }
+}
+
+.h3AgregarCliente {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.divRegistroCliente form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divRegistroCliente form input,
+.formValidarTarjeta input {
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  outline: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-left: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.1rem;
+  background-color: rgb(228, 228, 231);
+}
+
+.divPares {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.divInputs {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+
+.labelDNI,
+.labelNombre,
+.labelApellido,
+.labelCondicionTributaria,
+.labelDireccion,
+.labelTelefono,
+.labelNumeroTarjeta,
+.labelDniTitular,
+.labelNombre,
+.labelVencimiento,
+.labelCodigo {
+  font-size: 1rem;
+  color: #f5f5f5;
+  margin-bottom: 3px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.divCondicionTributaria {
+  width: 200px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  outline: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-left: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.divBotonera {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+.divFormaPago {
+  width: 100%;
+  height: calc(100vh - 10px);
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 5px;
+  border-top-left-radius: none;
+  margin-top: 5px;
+  margin-right: 5px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  backdrop-filter: blur(5px);
+}
+
+.divFormaPago::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.divFormaPago::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.divFormaPago::-webkit-scrollbar-button:increment,
+.contenedor::-webkit-scrollbar-button {
+  display: none;
+}
+
+.divFormaPago::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.divFormaPago::-webkit-scrollbar-thumb {
+  background-color: #f1f2f3;
+  border-radius: 7px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.divFormaPago::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.h3Pago {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.divFormaPagoInner {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.divSelección {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.divTarjeta {
+  width: 20%;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 9px;
+  margin-left: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  gap: 10px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.divTarjeta:hover {
+  color: #000;
+  background-color: #fff;
+  font-weight: 800;
+}
+
+.divEfectivo {
+  color: #fff;
+  width: 20%;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 9px;
+  margin-left: 7px;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  gap: 10px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.divEfectivo:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: 800;
+}
+
+.divEfectivo input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 1.4rem;
+  width: 18px;
+  height: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.divTarjeta input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 1.4rem;
+  width: 18px;
+  height: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iconoLabel {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.iconoLabel i {
+  margin-right: 5px;
+  font-weight: 100;
+}
+
+.divValidarTarjeta {
+  margin-top: 10px;
+  border-radius: 7px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.formValidarTarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1275px) {
+  .inputCodigoSeguridad {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 765px) {
+  .divFormaPagoInner {
+    width: 100%;
+  }
+  .divParesTarjeta {
+    flex-direction: column;
+  }
+  .divPares {
+    flex-direction: column;
+  }
+}
+
+.formValidarTarjeta button {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(0, 224, 97);
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.formValidarTarjeta button:hover {
+  color: rgb(51, 51, 51);
+  background-color: rgb(0, 224, 97);
+  font-weight: 800;
+}
+
+.h4Venta {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  border-top: 1px solid #fff;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.divTableCarritoInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  border-radius: 0;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  padding-top: 5px;
+  border-radius: 5px;
+  overflow: auto;
+  border-collapse: separate;
+}
+
+.tableCarrito {
+  width: 100%;
+  background: transparent;
+  border-radius: 7px;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  overflow: auto;
+  border-collapse: collapse;
+}
+
+.tableCarrito td {
+  padding: 10px;
+}
+
+@media (max-width: 1275px) {
+  .divFormaPagoInner {
+    width: 100%;
+  }
+  .h3Pago {
+    width: 100%;
+  }
+}
+
+.tableCarrito button {
+  border-radius: 7px;
+  font-weight: 100;
+  font-size: 1.1rem;
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 7px 5px 5px;
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(255, 0, 60);
+}
+
+.tableCarrito button:hover {
+  background-color: rgb(255, 0, 60);
+
+  color: #fff;
+}
+
+.divTotal {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.btnTotal {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1.15rem;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  margin-left: 10px;
+}
+
+.btnTotal:hover {
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  font-weight: 800;
+}
+
+.h3Comprobante {
+  width: 100%;
+  color: #fff;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.btnRealizarVenta {
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(0, 224, 97);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.btnRealizarVenta:hover {
+  color: rgb(51, 51, 51);
+  background-color: rgb(0, 224, 97);
+  font-weight: 800;
+}

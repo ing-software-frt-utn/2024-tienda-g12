@@ -1,0 +1,117 @@
+.main {
+  background: url("../images/martin-martz-X5fEKadz0Xc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.main header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnCancelar {
+  background: transparent;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 40px;
+  padding-top: 2px;
+  position: absolute;
+  margin-right: 90%;
+}
+
+.btnCancelar:hover {
+  color: #fff;
+  text-shadow: #fff 0 0 8px;
+}
+
+.divUsuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: calc(100vh - 125px);
+  gap: 5px;
+  color: #fff;
+}
+
+.h5Usuario {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.divBienvenida {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: calc(100vh - 125px);
+}
+
+.h1Bienvenido {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.aNuevaVenta {
+  background: transparent;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: "Caudex", serif;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  border: 2px solid #fff;
+}
+
+.aNuevaVenta:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.aGestionarArticulos {
+  background: transparent;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: "Caudex", serif;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  border: 2px solid #fff;
+  margin-left: 10px;
+}
+
+.aGestionarArticulos:hover {
+  background-color: #fff;
+  color: #000;
+}
